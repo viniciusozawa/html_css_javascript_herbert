@@ -1,0 +1,26 @@
+body{
+    font-size: 18px;
+    font-family: Arial, Verdana, Tahoma;
+    
+}
+
+div#interface{
+    width: 1300px;
+    margin: 0 auto;
+}
+
+h1{
+    margin: 50px 150px;
+    color: white;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+    width: 100%vw;
+    
+    
+}
