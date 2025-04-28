@@ -45,4 +45,22 @@ header{
     color: #fff;
     margin: 0px;
     font-family: 'Roboto';
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.menu{
+    background-color: rgba(65, 65, 65);
+}
+
+.menu ul{
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.menu ul li{
+    display: inline;
 }
