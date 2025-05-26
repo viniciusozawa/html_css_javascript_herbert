@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-
-
-body{
-    font-size: 18px;
-    font-family: Arial, Verdana, Tahoma;
-    
+body{font-family: Arial, Verdana, Tahoma, Helvetica, sans-serif;
+    font-size: 16px;    
 }
 
 div#interface{
@@ -14,15 +10,12 @@ div#interface{
 }
 
 header{
-    
+    background-color: #253526;
     height: 60px;
     padding: 10px;
-    background-color: #253526;    
 }
 
-.logo{
-    float: left;
-}
+.logo{float: left;}
 
 .logo img{
     width: 60px;
@@ -35,69 +28,121 @@ header{
     padding-right: 10px;
 }
 
-.social img{
-    width: 24px;
-    
-}
+.social img{width: 24px;}
 
 .titulo1{
-    /*margin: 50px 150px;*/
     color: #fff;
-    margin: 0px;
     font-family: 'Roboto';
-    text-transform: uppercase;
+    /* margin: 50px 150px 50px 100px; */
+    margin: 0;
+    text-transform:  uppercase;
     font-style: italic;
 }
 
 .menu{
-    
-    background-color: rgba(65, 65, 65);
+    background-color: rgb(65, 65, 65);
     height: 40px;
 }
 
 .menu ul{
-    
     text-align: center;
     list-style: none;
     margin: 0;
-    padding: 10px 0px 0px;
-    
+    padding: 10px 0 0;
 }
 
-.menu ul li{
-    display: inline;
-    
-}
+.menu li{display: inline;}
 
 .menu a{
     color: rgb(255, 255, 255);
     text-decoration: none;
-    margin: 0px 10px;
-    
+    margin-left: 10px;
+    margin-right: 10px;
     padding: 5px 15px;
+    transition: 0.8s;
+    border-radius: 60px;
 }
 
 .menu a:hover{
     background-color: rgb(255, 193, 7);
     color: rgb(0, 0, 0);
-
-    
 }
-
 .banner{
-    background-image: url(../imagens/banner.jpg);
     height: 500px;
-    /*background-repeat: no-repeat;*/
+    background-image: url(../imagens/banner.jpg);
+    /* background-repeat: no-repeat; */
     background-size: cover;
     background-position: center;
-
 }
 
 .banner p{
-    text-align: center;
     margin: 0;
-    padding-top: 175px;
+    text-align: center;
     font-size: 75px;
+    padding-top: 200px;
+    color: rgb(255, 255, 255);
     font-weight: bold;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.missao{
+    
+    padding: 75px 50px;
+}
+
+.titulo2{
+    font-size: 35px;
+    text-align: center;
+}
+.missao p{
+    font-size: 22px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.missao span{color: rgb(18, 124, 25);
+    font-weight: bold;
+}
+
+.alerta{
+    
+
+    /*border-width: 30px; 
+    border-color: red;
+    border-style: solid;*/
+    /*border-top: 10px solid red;
+    border-bottom: 5px dotted yellow;
+    border-left: 10px dashed green;
+    border-right: 10px solid blue;*/
+    border-top: 15px solid rgb(25, 34, 24 );
+    border-bottom: 15px solid rgb(25, 34, 24 );
+    background-color: rgb(131,100, 60 );
+    text-align: center;
+    color: rgb(255, 255, 255);
+    height: 360px;
+    
+}
+
+.alerta figure{
+    float: left;
+    width: 325px;
+    height: 320px;
+    margin: 0;
+    padding: 20px 20px 0px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.alerta a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: rgb(255, 193, 7);
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    right: 32.5%;
+    
     
 }
