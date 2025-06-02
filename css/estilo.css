@@ -61,11 +61,13 @@ header{
     padding: 5px 15px;
     transition: 0.8s;
     border-radius: 60px;
+    transition: all 2s;
 }
 
 .menu a:hover{
     background-color: rgb(255, 193, 7);
     color: rgb(0, 0, 0);
+    
 }
 .banner{
     height: 500px;
@@ -120,17 +122,18 @@ header{
     text-align: center;
     color: rgb(255, 255, 255);
     height: 360px;
-    
+    display: flex;
 }
 
 .alerta figure{
-    float: left;
-    width: 325px;
+    /*float: left;
+    width: 325px;*/
     height: 320px;
     margin: 0;
     padding: 20px 20px 0px;
     position: relative;
     box-sizing: border-box;
+    
 }
 
 .alerta a{
@@ -146,3 +149,41 @@ header{
     
     
 }
+
+
+
+.renovavel{
+    float: left;
+    width: 900px;
+    border-right: 2px solid rgb(35, 30, 24);
+    padding-right: 15px;
+    
+}
+
+.renovavel p{
+    font-size: 18px;
+    text-align: justify;
+
+}
+
+.renovavel figure{
+    margin: 15px 23px ;
+    /*float: left;*/
+    border: 1px solid #000000;
+    padding: 10px;
+}
+
+.renovavel div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.renovavel figure img{
+    opacity: 0.5;
+    transition: opacity 2s;
+}
+
+.renovavel figure:hover img{
+    opacity: 1;
+    
+}
+
