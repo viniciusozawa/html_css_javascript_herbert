@@ -13,6 +13,7 @@ header{
     background-color: #253526;
     height: 60px;
     padding: 10px;
+    
 }
 
 .logo{float: left;}
@@ -158,8 +159,7 @@ header{
     border-right: 2px solid rgb(35, 30, 24);
     padding-right: 15px;
     
-}
-
+} 
 .renovavel p{
     font-size: 18px;
     text-align: justify;
@@ -187,3 +187,49 @@ header{
     
 }
 
+.lateral{
+    align-self: center;
+    float: right;
+    width: 375px;
+}
+
+.lateral a{
+    text-decoration: none;
+    
+}
+
+.lateral img{
+    height: 40%;
+    width: 50%;
+    float: left;
+    padding-right: 10px;
+}
+
+.lateral h4{
+    font-weight: bold;
+    
+}
+
+.lateral p{
+    font-size: 14px;
+    text-align: justify;
+    font-weight: 400;
+    color: #000000;
+}
+
+.rodape{
+    clear: both;
+    background-color: rgb(35, 30, 24);
+    padding: 20px 50px;
+    color: rgb(255, 255, 255);
+    height: 50px;
+}
+.rodape img{
+    float: left;
+
+}
+
+.rodape p {
+    float: right;
+    
+}
