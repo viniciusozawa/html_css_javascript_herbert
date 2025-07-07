@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root{
+    --colorprimary: #253526;
+    --preto: rgb(0,0,0);
+}
+
 body{font-family: Arial, Verdana, Tahoma, Helvetica, sans-serif;
     font-size: 16px;    
 }
@@ -10,7 +15,7 @@ div#interface{
 }
 
 header{
-    background-color: #253526;
+    background-color: var(--colorprimary);                                                                                                                                                                                   
     height: 60px;
     padding: 10px;
     
