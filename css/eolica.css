@@ -1,9 +1,18 @@
 table, td{
-    border: 1px solid var(--preto);
+    border: 0.5px solid var(--preto);
     border-spacing: 0;
+    width: 300px;
 }
-
 table{
-    margin: 25px;
+    margin: 0px auto;
+    margin-bottom: 25px;
+    width: 1200px;
 }
-
+.cabecalho{
+    text-align: center;
+    background-color: var(--cinza);
+    color: white;
+}
+table img{
+    width: 100%;
+}
