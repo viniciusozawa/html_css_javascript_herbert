@@ -1,0 +1,37 @@
+.animacao {
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    animation: exemplo;
+    animation-duration: 4s;
+}
+
+@keyframes exemplo {
+    
+    /* from{background-color: red;}
+
+    to{
+        background-color: yellow;
+    } */
+     0%{
+        background-color: red;
+        transform: translate(0,0);
+     }
+     25%{
+        background-color: yellow;
+        transform: translate(1000px,0);
+     }
+     50%{
+        background-color: green;
+        transform: scale(1.5);
+     }
+     75%{
+        background-color: blue;
+        transform: scale(10);
+     }
+     100%{
+        background-color: red;
+         transform: scale(20);
+        
+     }
+}

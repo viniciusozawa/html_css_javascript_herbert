@@ -1,4 +1,72 @@
 .galeria{
     padding: 0;
     list-style: none;
-}s
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}   
+.galeria li{
+    display: flex;
+    float: left;
+    width: 400px;
+    height: 300px;
+    border: 2px solid var(--cinza);
+    margin: 10px;
+    background-size: 380px 280px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--branco);
+    transition: transform 0.5s;
+}
+
+.galeria li:hover{
+    transform: scale(1.5);
+}
+.f1{
+    background-image: url(../imagens/fauna-01\ -\ Copia.jpg);
+}
+.f2{
+    background-image: url(../imagens/fauna-02\ -\ Copia.jpg);
+}
+.f3{
+    background-image: url(../imagens/fauna-03\ -\ Copia.jpg);
+}
+.f4{
+    background-image: url(../imagens/fauna-04\ -\ Copia.jpg);
+}
+.f5{
+    background-image: url(../imagens/fauna-05\ -\ Copia.jpg);
+}
+.f6{
+    background-image: url(../imagens/fauna-06\ -\ Copia.jpg);
+}
+
+.galeria P{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: var(--branco);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+    height: 10%;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.5s;
+
+}
+
+.galeria li:hover p{
+    opacity: 1;
+}
+
+.animacao{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: all 2s;
+    
+}
+.animacao:hover{
+    transform: translate(1000px) rotate(100deg) scale(20) ;
+    background-color: chartreuse;
+    border-radius: 50%;
+}

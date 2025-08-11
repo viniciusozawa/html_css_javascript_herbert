@@ -3,6 +3,7 @@
 :root{
     --colorprimary: #253526;
     --preto: rgb(0,0,0);
+    --branco: rgb(255,255,255);
 }
 
 body{font-family: Arial, Verdana, Tahoma, Helvetica, sans-serif;
